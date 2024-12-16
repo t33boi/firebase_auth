@@ -1,0 +1,8 @@
+await FirebaseFirestore.instance.collection("users").get()  for all the users
+
+await FirebaseFirestore.instance.collection("users").doc(user id).get()  for all the users details
+
+
+todo:
+
+handle errors
